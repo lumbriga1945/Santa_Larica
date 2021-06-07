@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>Santa larica</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="_css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script language="javascript" src="_javascript/funcoes.js"></script>
+	<style>
+		.body{
+			text-align: center;
+			background-image: url('_imagens/background.jpg');
+			font-family: "Baskerville Old Face";
+		}
+		.classTableSubtite{
+			border-radius: 10px;
+			background-color: #faca00;
+			color: #ffffff;
+		}
+		.tableLeft{
+			color: #ffffff;
+			background-color: #555;
+			text-align: left;
+		}
+		.tableRigth{
+			color: #ffffff;
+			background-color: #555;
+			text-align: right;
+		}
+		.classTableMolhos{
+			color: #ffffff;
+			background-color: #555;
+		}
+	</style>
+</head>
+<body class="body" style="background-image: url('_imagens/background.jpg');">
+	<div class="row">
+		<div class="column">
+			<div class="card">
+				<div class="imgLog">
+					<img src="_imagens/logo.png" alt="logo" style="width: 40%";>
+				</div>
+				<div class="container">
+					<h1 class="title">Santa Larica</h1>
+					<p class="subtitle">Quem prova não<h2 style="color: #faca00";>esquece!</h2></p>
+					<div class="panel-group" id="accordion">
+						<div class="panel panel-default" id="BStyle">
+							<div class="panel-heading" id="BT">
+								<h4 class="panel-title">
+									<a class="buttonN" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Promoções</a>
+								</h4>
+							</div>
+							<div id="collapse1" class="panel-collapse collapse in">
+								<div class="panel-body">
+
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default"  id="BStyle"">
+							<div class="panel-heading" id="BT">
+								<h4 class="panel-title">
+									<a class="buttonN" data-toggle="collapse" data-parent="#accordion" href="#collapse2">Cardápio</a>
+								</h4>
+							</div>
+								<div id="collapse2" class="panel-collapse collapse">
+									<div class="panel-body">
+										<table class="table" id="myTable" border="0"></table>
+									</div>
+								</div>
+						</div>
+						<div class="panel panel-default"  id="BStyle">
+							<div class="panel-heading" id="BT">
+								<h4 class="panel-title">
+									<a class="buttonN" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Contatos</a>
+								</h4>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse">
+								<div class="panel-body">
+									<a href="https://www.ifood.com.br/delivery/lauro-de-freitas-ba/santa-larica-petiscaria-jardim-portao/8d3900ae-b810-4b2f-bf3d-ba0a7e0453a8"><img src="_imagens/ifood.png" style="width: 10%"></a>
+									<a href="https://www.instagram.com/santa_larica_/" class="iconContato"><img src="_imagens/instagram.png" style="width: 10%"></a>
+									<a href=""><img src="_imagens/whatsapp.png" class="iconContato" style="width: 10%"></a><p></p>
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default"  id="BStyle">
+							<div class="panel-heading" id="BT">
+								<h4 class="panel-title">
+									<a class="buttonN" data-toggle="collapse" data-parent="#accordion" href="#collapse4">Sobre nós</a>
+								</h4>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse">
+								<div class="panel-body">Criada no dia 11/05/2016 em Lauro se Freitas, o Santa Larica foi uma das empresas pioneira no ramo de petiscaria da região. Buscando inovar trazemos o sabor da comida caseira, através de um cardápio bem variado tanto para o dia, quanto para a noite. Durante o dia disponibilizamos os nossos almoços em forma de prato executivo, moquecas e churrasco para 1 ou 2 pessoas. Para noite temos um cardápio variado e oferecemos aos clientes a liberdade de montar o seu petisco, acrescentando o que lhe desejar.<br>Entre em contato e venha conhecer a melhor petiscaria de Lauro de Freitas.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<p>Somente delivery</p>
+</body>
+</html>

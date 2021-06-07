@@ -1,0 +1,69 @@
+{
+  "cardapio": [
+    {
+      "grupo": "FAMILIA",
+      "Pratos": [
+        "FRANGO CRISPY",
+        "CALABRESA ACEBOLADA",
+        "CRISPY PREMIUM", 
+        "FILEZINHO ACEBOLADO",
+        "CARNE DO SOL",
+        "CAMARÄO ALHO & OLÉO (S/CABECA)",
+        "FUMEIRO ACEBOLADO"
+      ],
+      "Valores":[47.90, 52.90, 69.90, 74.90, 74.90, 84.90, 89.90]
+    },
+    {
+      "grupo": "COMBINADOS",
+      "Pratos": [
+        "FRANGO CRISPY",
+        "CALABRESA ACEBOLADA",
+        "CRISPY PREMIUM",
+        "FILEZINHO ACEBOLADO",
+        "CARNE DO SOL",
+        "CAMARÄO ALHO & OLÉO (S/CABECA)",
+        "FUMEIRO ACEBOLADO"
+      ],
+      "Valores":[27.90, 32.90, 36.00, 39.90, 39.90, 45.00, 49.00]
+    },
+    {
+      "grupo": "PORCOES",
+      "Pratos": [
+        "ARROZ | FAROFA | VINAGRETE",
+        "COXINHA | KIBE",
+        "BATATA FRITA | ONION | AIPIM",
+        "BOLINHO DE QUEUO",
+        "PASTEL SIMPLES",
+        "PASTEL ESPECIAL",
+        "CAMARÄO ENCAPOTADO",
+        "BATATA FRITA 3 QUEIJOS",
+        "BATATA PREMIUM",
+        "BATATA DA CASA",
+        "CAMARÄO ALHO & OLÉO (S/CABECA)"
+      ],
+      "Valores":[7.00, 12.00, 15.00, 16.00, 13.00, 19.00, 22.00, 25.00, 25.00, 30.00, 39.00]
+    },
+    {
+      "grupo": "BEBIDAS",
+      "Pratos": [
+        "CHÁ GELADO",
+        "CERVEJA 350ML",
+        "REFRIGERANTE 1L",
+        "REFRIGERANTE 1,5L"
+      ],
+      "Valores":[4.00, 5.00, 7.50, 10.00]
+    },
+    {
+      "grupo": "MOLHOS",
+      "Pratos": [
+        "BARBECUE",
+        "BARBECUE PICANTE",
+        "CHEDDAR",
+        "MOSTARDA E MEL",
+        "ROSÉ",
+        "TÁRTARO",
+        "CATUPIRY"
+      ]
+    }
+  ]
+}

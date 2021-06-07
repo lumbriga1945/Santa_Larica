@@ -1,0 +1,195 @@
+@charset="utf-8";
+html{
+	box-sizing: border-box;
+}
+
+#body{
+    text-align: center;
+	font-family: "Baskerville Old Face";
+}
+
+.title{
+	font-size: 600%;
+	margin: -10px;
+	color: #faca00;
+}
+
+.subtitle{
+	color: white;
+	margin-top: -20px;
+	font-size: 200%;
+}
+
+.logo{
+	width: 40%
+}
+
+.button:houver {
+	background-color: #555;
+	color: #faca00;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#BStyle{
+	border-collapse: collapse;
+	border-radius: 50px;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 10px;
+	font-size: 250%;
+	font-weight: bold;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	border:solid 10px;
+	border-radius:20px;
+	box-sizing: border-box;
+	border-style: double;
+	color: #555;
+	text-decoration: none;
+	-webkit-text-stroke-width: 100%;
+	-webkit-text-stroke-color: #000;
+}
+
+#BT{
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	border-radius: 100px;
+}
+
+#BTC{
+	width: 100%;
+	background-color: #faca00;
+	color: white;
+	border:solid 10px;
+	border-radius:20px;
+	border-color: white;
+	font-size: 80%;
+	border-style: double;
+}
+
+#BTP{
+	width: 50%;
+	background-color: rgba(222, 42, 28, 0.7);
+	color: #fdc818;
+	border:solid 10px;
+	border-radius:20px;
+	border-color: white;
+	font-size: 80%;
+	border-style: double;
+}
+
+.panel-body{
+	filter:opacity(alpha=60);
+}
+
+.panel-title{
+	font-size: 100%;
+	font-weight: bold;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
+.classTableSubtite{
+	border-radius: 10px;
+	background-color: #faca00;
+	color: #ffffff;
+}
+
+.tableLeft{
+	color: #ffffff;
+	background-color: #555;
+	text-align: left;
+}
+
+.tableRigth{
+	color: #ffffff;
+	background-color: #555;
+	text-align: center;
+}
+
+.checkButton{
+	color: #ffffff;
+	background-color: #555;
+}
+
+.classTableMolhos{
+	color: #ffffff;
+	background-color: #555;
+}
+
+.column{
+	float: center;
+	width: auto;
+	margin-bottom: 8px;
+	padding: 0 4px;
+}
+
+.card {
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+	padding: 0 150px;
+}
+
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.collapse{
+	font-family: "Baskerville Old Face";
+    color: #ffffff;
+    font-size: 30px
+}
+
+table{
+	background-color: #555;
+	border:solid 10px;
+	border-radius:20px;
+	border-color: white;
+	border-style: double;
+}
+
+.buttonSelect{
+	background-color: #555;
+}
+
+@media screen and (max-width: 650px){
+	.imgLogo{
+		width: 100%;
+	}
+	.logo{
+		width: 90%;
+	}
+	.title{
+		margin: -10px;
+	}
+
+	.subtitle{
+		margin-top: -20px;
+	}
+	.column {
+		width: 100%;
+		display: block;
+	}
+	.container {
+		padding: 0 30px;
+	}
+
+	.a{
+		width: 50%;
+	}
+	.collapse{
+	    color: #faca00;
+	    font-size: 20px
+	}
+}

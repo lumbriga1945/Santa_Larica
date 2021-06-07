@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <style>
+        *{margin:0;padding:0;}
+        body{background:#000; color:#FFFF00; font: 13px verdana, arial;}
+        #box_geral{width:500px; margin:0 auto; display:block; background:#222; border-radius:3px; margin-top:20px; padding:10px;}
+        #box_geral span{display:block; cursor:pointer; font-size:16px; text-align:center;background:#FFFF00; color:#000; margin: 5px 0; padding:5px; border-radius:3px;}
+        .box{padding:10px;}
+        
+    </style>
+
+    <script type="text/javascript">
+        jQuery.fn.toggleText = function(a,b) {
+        return this.html(this.html().replace(new RegExp("("+a+"|"+b+")"),function(x){return(x==a)?b:a;}));
+        }
+        
+        $(document).ready(function(){
+        $('.box').before('<span>Mostrar conteúdo</span>');
+        $('.box').css('display', 'none')
+        $('span', '#box_geral').click(function() {
+        $(this).next().slideToggle('slow')
+        .siblings('.tgl:visible').slideToggle('fast');
+        // aqui começa o funcionamento do plugin
+        $(this).toggleText('Mostrar','Esconder')
+        .siblings('span').next('.tgl:visible').prev()
+        .toggleText('Mostrar','Esconder')
+        });
+        })
+    </script>
+
+</head>
+<body>
+    <div id="box_geral">
+        <div class="box">
+        <h2>Título 1</h2>
+        <p>Este é um exemplo de texto que será mostrado ao clicar no Título 1, aqui você pode usar qualquer tag html, como inserir imagens, links, textos, etc.</p>
+        </div>
+        <div class="box">
+        <h2>Título 2</h2>
+        <p>Este é um exemplo de texto que será mostrado ao clicar no Título 2, aqui você pode usar qualquer tag html, como inserir imagens, links, textos, etc.</p>
+        </div>
+        <div class="box">
+        <h2>Título 3</h2>
+        <p>Este é um exemplo de texto que será mostrado ao clicar no Título 3, aqui você pode usar qualquer tag html, como inserir imagens, links, textos, etc.</p>
+        </div>
+        </div>
+</body>
+</html>

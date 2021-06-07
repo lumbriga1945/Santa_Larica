@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>			
+			$(document).ready(function(){
+				$.getJSON('cardapio.json', function(idTabela){
+					var tabela = document.getElementById(idTabela);
+					var numeroLinhas = tabela.rows.length;
+					var linha = tabela.insertRow(numeroLinhas);
+					var celula1 = linha.insertCell(0);
+					var celula2 = linha.insertCell(1);    
+
+					//inserindo dinamicamente o objeto dentro da tabela  
+					for(t in idTabela){
+						celula1.innerHTML = data[1][t]; 
+						celula2.innerHTML =  data[2][t];
+						//t posicao do objeto retorna 'inprog'
+						//objeto[t] retornaria '123'
+					}         
+				});
+			}); 
+        </script>       
+    </head>
+    <body>
+        <button onclick="adicionaLinha('tbl')">Adicionar</button>
+        <table id="tbl" border="1">
+        <tr>
+          <td colspan=”3″>Tabela de Produtos</td>
+        </tr>
+        <tr>
+          <td>Produto</td>
+          <td>Valor</td>
+          <td>Acao</td>
+        </tr>
+        </table>        
+    </body>
+</html>

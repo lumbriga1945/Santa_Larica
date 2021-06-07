@@ -1,0 +1,12 @@
+one page
+
+quatro botões, cada um abrirá uma subsessão contendo em si o conteudo pertencente a mesma.
+
+as abas iram rolar de maneira sutil para baixo.
+se fecharão quando o usuario clicar em outra aba ou caso clique na mesma.
+
+as abas terão velocidades diferentes de rolagem a depender da guia do menu selecionada.
+
+o cardápio deve conter fotos dos pratos.
+
+bordas, contorno e sombreamento dos botões.
