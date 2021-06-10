@@ -24,10 +24,14 @@ cardapio[3] = {
 };
 
 cardapio[4] = {
-    "grupo": "ACOMPANHAMENTOS E MOLHOS",
+    "grupo": "ACOMPANHAMENTOS",
     "ACOMP_FAM" : ["BATATA FRITA", "AIPIM", "ONION RING", "FAROFA", "FAROFA DA CASA", "VINAGRETE"],
     "A_PARTE": ["CALABRESA ACEBOLADA", 15],
-    "ACOMP_COMB": ["BATATA FRITA", "AIPIM", "ONION RING"],
+    "ACOMP_COMB": ["BATATA FRITA", "AIPIM", "ONION RING"]
+};
+
+cardápio[5] = {
+    "grupo": "MOLHOS",
     "MOLHOS": ["BARBECUE", "BARBECUE PICANTE", "CHEDDAR", "MOSTARDA E MEL", "ROSÉ", "TÁRTARO", "CATUPIRY"]
 };
 
